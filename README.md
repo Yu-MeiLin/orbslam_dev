@@ -1,5 +1,5 @@
 # ORB_SLAM3_ROS2
-This repository is ROS2 wrapping to use ORB_SLAM3
+This repository clones both https://github.com/UZ-SLAMLab/ORB_SLAM3.git and https://github.com/zang09/ORB_SLAM3_ROS2.git to run ORB_SLAM3 on ROS2. Based on the latter repository, this one adds rgbd-inertial mode.
 
 ---
 
@@ -8,8 +8,8 @@ This repository is ROS2 wrapping to use ORB_SLAM3
 
 ## Prerequisites
 - I have tested on below version.
-  - Ubuntu 20.04
-  - ROS2 foxy
+  - Ubuntu 22.04
+  - ROS2 humble
   - OpenCV 4.2.0
 
 - Build ORB_SLAM3
