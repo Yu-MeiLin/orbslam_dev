@@ -1,0 +1,30 @@
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce()'
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::RandomInt(int, int)'
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce(int)'
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DBoW2::FORB::L'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/mono.dir/build.make:271: mono] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/mono.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce()'
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::RandomInt(int, int)'
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce()'
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce(int)'
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DBoW2::FORB::L'
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::RandomInt(int, int)'
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce(int)'
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DBoW2::FORB::L'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/stereo.dir/build.make:269: stereo] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/stereo.dir/all] Error 2
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/rgbd.dir/build.make:269: rgbd] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/rgbd.dir/all] Error 2
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce()'
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::RandomInt(int, int)'
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce(int)'
+/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DBoW2::FORB::L'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:268: stereo-inertial] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/stereo-inertial.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

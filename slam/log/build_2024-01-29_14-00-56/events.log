@@ -1,0 +1,912 @@
+[0.000000] (-) TimerEvent: {}
+[0.000541] (orbslam3) JobQueued: {'identifier': 'orbslam3', 'dependencies': OrderedDict()}
+[0.001043] (orbslam3) JobStarted: {'identifier': 'orbslam3'}
+[0.088755] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'cmake'}
+[0.091251] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'build'}
+[0.092216] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gina/mei/slam/build/orbslam3', '--', '-j24', '-l24'], 'cwd': '/home/gina/mei/slam/build/orbslam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gina'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gina'), ('CYCLONEDDS_URI', 'file:///opt/autoware/cyclonedds/cyclonedds.xml'), ('OLDPWD', '/home/gina/mei/ORB_SLAM3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('SYSTEMD_EXEC_PID', '1778'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/gina/mei/slam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gina'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gina'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/gina/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/gina/.local/bin:/home/gina/.local/bin'), ('SESSION_MANAGER', 'local/gina-office:@/tmp/.ICE-unix/1750,unix/gina-office:/tmp/.ICE-unix/1750'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0dcb0e7b_5bab_48e9_a884_ee0528f4d8d0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '19'), ('AMENT_PREFIX_PATH', '/home/gina/mei/slam/install/orbslam3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gina/mei/slam/build/orbslam3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gina/mei/slam/install/orbslam3:/opt/ros/humble')]), 'shell': False}
+[0.099894] (-) TimerEvent: {}
+[0.194741] (orbslam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereo\x1b[0m\n'}
+[0.200103] (-) TimerEvent: {}
+[0.213426] (orbslam3) StdoutLine: {'line': b'[ 25%] Built target stereo-inertial\n'}
+[0.213830] (orbslam3) StdoutLine: {'line': b'[ 50%] Built target mono\n'}
+[0.214047] (orbslam3) StdoutLine: {'line': b'[ 75%] Built target rgbd\n'}
+[0.235564] (orbslam3) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o\x1b[0m\n'}
+[0.300324] (-) TimerEvent: {}
+[0.400857] (-) TimerEvent: {}
+[0.501409] (-) TimerEvent: {}
+[0.601967] (-) TimerEvent: {}
+[0.702520] (-) TimerEvent: {}
+[0.803082] (-) TimerEvent: {}
+[0.903582] (-) TimerEvent: {}
+[1.003911] (-) TimerEvent: {}
+[1.104207] (-) TimerEvent: {}
+[1.204532] (-) TimerEvent: {}
+[1.304857] (-) TimerEvent: {}
+[1.405202] (-) TimerEvent: {}
+[1.505536] (-) TimerEvent: {}
+[1.605887] (-) TimerEvent: {}
+[1.706311] (-) TimerEvent: {}
+[1.806649] (-) TimerEvent: {}
+[1.907077] (-) TimerEvent: {}
+[2.007432] (-) TimerEvent: {}
+[2.107761] (-) TimerEvent: {}
+[2.208082] (-) TimerEvent: {}
+[2.308393] (-) TimerEvent: {}
+[2.408700] (-) TimerEvent: {}
+[2.509045] (-) TimerEvent: {}
+[2.609374] (-) TimerEvent: {}
+[2.709685] (-) TimerEvent: {}
+[2.810011] (-) TimerEvent: {}
+[2.910331] (-) TimerEvent: {}
+[3.010661] (-) TimerEvent: {}
+[3.110985] (-) TimerEvent: {}
+[3.211302] (-) TimerEvent: {}
+[3.311639] (-) TimerEvent: {}
+[3.411961] (-) TimerEvent: {}
+[3.512371] (-) TimerEvent: {}
+[3.612784] (-) TimerEvent: {}
+[3.713111] (-) TimerEvent: {}
+[3.813438] (-) TimerEvent: {}
+[3.913763] (-) TimerEvent: {}
+[4.014106] (-) TimerEvent: {}
+[4.114450] (-) TimerEvent: {}
+[4.214779] (-) TimerEvent: {}
+[4.315168] (-) TimerEvent: {}
+[4.415511] (-) TimerEvent: {}
+[4.515843] (-) TimerEvent: {}
+[4.616225] (-) TimerEvent: {}
+[4.716562] (-) TimerEvent: {}
+[4.816878] (-) TimerEvent: {}
+[4.917184] (-) TimerEvent: {}
+[5.017506] (-) TimerEvent: {}
+[5.117909] (-) TimerEvent: {}
+[5.218336] (-) TimerEvent: {}
+[5.318747] (-) TimerEvent: {}
+[5.419082] (-) TimerEvent: {}
+[5.519410] (-) TimerEvent: {}
+[5.619737] (-) TimerEvent: {}
+[5.720066] (-) TimerEvent: {}
+[5.820386] (-) TimerEvent: {}
+[5.920701] (-) TimerEvent: {}
+[6.021020] (-) TimerEvent: {}
+[6.118740] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:30\x1b[m\x1b[K,\n'}
+[6.118988] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.119070] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.119135] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.119199] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.119275] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.119337] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.119404] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.119465] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.119522] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/ImuTypes.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.119583] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/ImuTypes.h:204:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.119650] (orbslam3) StderrLine: {'line': b'  204 |         for(int i=0; \x1b[01;35m\x1b[Ki<mvMeasurements.size()\x1b[m\x1b[K; i++){\n'}
+[6.119712] (orbslam3) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.121126] (-) TimerEvent: {}
+[6.217193] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[6.217413] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.217489] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.217555] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.217712] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.217771] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.217835] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.217894] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.217951] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.218008] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.218066] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.218121] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:\x1b[m\x1b[K At global scope:\n'}
+[6.218178] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.218242] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[6.218305] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.218376] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.218430] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.218492] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.218547] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.218601] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.218656] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.218710] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.218764] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.218824] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.218881] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.218936] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.218995] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.219049] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.219106] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.219159] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.219216] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.219281] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.221205] (-) TimerEvent: {}
+[6.242543] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.242732] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.242803] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.242868] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.242932] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.242996] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.243061] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.243124] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.243187] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.243260] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.243420] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.243482] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.243552] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[6.243616] (orbslam3) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.243677] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.243736] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.243794] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.243852] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.243914] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.243974] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.244034] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.244094] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.244152] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.244272] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.244328] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.244385] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.244441] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.244493] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.244547] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.244604] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.244659] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.244714] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.244768] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.244827] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.244883] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.244936] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.244993] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.245047] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.245100] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.245155] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.245210] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.245264] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.245318] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.245383] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[6.245439] (orbslam3) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.245493] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.245548] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.245602] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.245656] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.245711] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.245766] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.245821] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.245874] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.245929] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.245983] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.246036] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.246092] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.246146] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.246202] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.246262] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.246318] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.246377] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.295784] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41\x1b[m\x1b[K,\n'}
+[6.295995] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.296075] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.296141] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.296202] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.296259] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.296316] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.296374] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.296432] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.296488] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.296545] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.296601] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/se3quat.h:43:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.296679] (orbslam3) StderrLine: {'line': b'   43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[6.296736] (orbslam3) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[6.296796] (orbslam3) StderrLine: {'line': b'      |                                      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[6.321315] (-) TimerEvent: {}
+[6.421609] (-) TimerEvent: {}
+[6.521944] (-) TimerEvent: {}
+[6.622287] (-) TimerEvent: {}
+[6.703096] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[6.703413] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.703492] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.703556] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.703619] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.703679] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.703736] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.703810] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.703866] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.703922] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.703978] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.704033] (orbslam3) StderrLine: {'line': b'/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.704092] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[6.704148] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.704219] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[6.704276] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.704334] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.704389] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.704444] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.704501] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.704556] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.704616] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.704670] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.704724] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.704778] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.704832] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.704886] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.704941] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.704996] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.705050] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.705103] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.705162] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.705214] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.722399] (-) TimerEvent: {}
+[6.735692] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[6.736007] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.736085] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.736149] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.736211] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.736284] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.736345] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.736405] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.736471] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.736527] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.736584] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.736641] (orbslam3) StderrLine: {'line': b'/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.736701] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[6.736759] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.736825] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[6.736884] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.736939] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.736995] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.737050] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.737103] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.737156] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.737210] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.737443] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.737496] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.737551] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.737605] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.737664] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.737719] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.737773] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.737826] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.737880] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.737934] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.737989] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.769151] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.769486] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.769552] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.769610] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.769670] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.769728] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.769785] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.769840] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.769895] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.769948] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.770004] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.770060] (orbslam3) StderrLine: {'line': b'/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.770130] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[6.770187] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.770258] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[6.770320] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.770378] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.770435] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.770490] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.770544] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.770598] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.770652] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.770707] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.770761] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.770814] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.770869] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.770924] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.770977] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.771032] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.771087] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.771145] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.771202] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.771265] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.771323] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.771377] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.771431] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.771485] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.771539] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.771592] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.771653] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.771706] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.771758] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.771813] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.771867] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.771920] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.771988] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[6.772044] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.772099] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.772153] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.772210] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.772268] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.772322] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.772378] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.772437] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.772491] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.772544] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.772597] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.772650] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.772705] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.772759] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.772812] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.772865] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.772919] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.772972] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.822508] (-) TimerEvent: {}
+[6.850998] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.851262] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.851341] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.851406] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.851485] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.851548] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.851607] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.851663] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.851720] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.851775] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.851832] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.851888] (orbslam3) StderrLine: {'line': b'/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.851951] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[6.852008] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.852072] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[6.852133] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.852189] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.852247] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.852302] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.852356] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.852410] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.852465] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.852520] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.852580] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.852634] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.852690] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.852744] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.852802] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.852855] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.852909] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.852966] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.853020] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.853074] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.867303] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.867532] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.867611] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.867675] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.867737] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.867795] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.867853] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.867921] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.867977] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.868033] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.868090] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.868149] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.868216] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[6.868277] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.868338] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.868394] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.868449] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.868505] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.868557] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.868612] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.868667] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.868723] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.868778] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.868832] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.868887] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.868943] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.868997] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.869052] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.869107] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.869161] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.869218] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.922632] (-) TimerEvent: {}
+[6.935731] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.936078] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.936153] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.936217] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.936294] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.936351] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.936409] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.936473] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.936529] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.936585] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.936644] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.936698] (orbslam3) StderrLine: {'line': b'/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.936760] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[6.936821] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.936894] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[6.936954] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.937012] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.937068] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.937126] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.937183] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.937238] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.937291] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.937346] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.937400] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.937454] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.937509] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.937564] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.937620] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.937673] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.937726] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.937779] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.937835] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.937890] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.937944] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[6.938004] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[6.938060] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[6.938113] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.938170] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.938226] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.938279] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.938332] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.938388] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.938445] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.938499] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.938554] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.938623] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[6.938680] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.938736] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[6.938794] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[6.938848] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[6.938903] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[6.938957] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[6.939011] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[6.939065] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[6.939117] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[6.939171] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[6.939224] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[6.939287] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[6.939345] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[6.939399] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[6.939454] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[6.939512] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.939566] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[6.939622] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.022822] (-) TimerEvent: {}
+[7.123167] (-) TimerEvent: {}
+[7.176593] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[7.176861] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[7.176938] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[7.177003] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[7.177065] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[7.177123] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[7.177180] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[7.177236] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[7.177291] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[7.177345] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[7.177403] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[7.177456] (orbslam3) StderrLine: {'line': b'/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.177515] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[7.177569] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.177631] (orbslam3) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[7.177690] (orbslam3) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.177745] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[7.177801] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[7.177871] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[7.177932] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[7.177986] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[7.178049] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[7.178103] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[7.178158] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[7.178211] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[7.178264] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[7.178318] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[7.178370] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[7.178425] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[7.178478] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[7.178534] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.178589] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[7.178643] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.212662] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[7.213003] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[7.213089] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[7.213155] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[7.213214] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[7.213270] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[7.213328] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[7.213383] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[7.213439] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[7.213494] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[7.213549] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[7.213603] (orbslam3) StderrLine: {'line': b'/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.213678] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[7.213735] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.213806] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[7.213865] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.213920] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[7.213974] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[7.214027] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[7.214079] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[7.214131] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[7.214186] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[7.214239] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[7.214292] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[7.214346] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[7.214405] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[7.214462] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[7.214515] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[7.214567] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[7.214624] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[7.214678] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.214732] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[7.214785] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.214839] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[7.214893] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[7.214951] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[7.215003] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[7.215054] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[7.215107] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[7.215160] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[7.215214] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[7.215281] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[7.215334] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[7.215388] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[7.215441] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.215500] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[7.215555] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.215609] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[7.215662] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[7.215715] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[7.215768] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[7.215821] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[7.215875] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[7.215929] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[7.215982] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[7.216035] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[7.216087] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[7.216140] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[7.216193] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[7.216246] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[7.216303] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[7.216357] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.216410] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[7.216466] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.223351] (-) TimerEvent: {}
+[7.262720] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[7.262988] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[7.263068] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[7.263134] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[7.263209] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[7.263280] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[7.263339] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[7.263402] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[7.263459] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[7.263514] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[7.263571] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[7.263625] (orbslam3) StderrLine: {'line': b'/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.263685] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[7.263741] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.263804] (orbslam3) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[7.263861] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.263916] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[7.263971] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[7.264026] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[7.264088] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[7.264146] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[7.264201] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[7.264257] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[7.264314] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[7.264368] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[7.264421] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[7.264474] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[7.264527] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[7.264580] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[7.264635] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[7.264687] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.264742] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[7.264796] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.279642] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[7.279809] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[7.279873] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[7.279943] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[7.280001] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[7.280058] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[7.280117] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[7.280174] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[7.280231] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[7.280288] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[7.280344] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[7.280415] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.280486] (orbslam3) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[7.280543] (orbslam3) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.280599] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[7.280654] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[7.280708] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[7.280764] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[7.280818] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[7.280872] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[7.280925] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[7.280979] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[7.281032] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[7.281085] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[7.281140] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[7.281194] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[7.281249] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[7.281301] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[7.281354] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.281408] (orbslam3) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[7.281461] (orbslam3) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.323461] (-) TimerEvent: {}
+[7.423775] (-) TimerEvent: {}
+[7.524163] (-) TimerEvent: {}
+[7.624581] (-) TimerEvent: {}
+[7.724926] (-) TimerEvent: {}
+[7.825248] (-) TimerEvent: {}
+[7.925590] (-) TimerEvent: {}
+[8.025926] (-) TimerEvent: {}
+[8.126263] (-) TimerEvent: {}
+[8.226620] (-) TimerEvent: {}
+[8.326959] (-) TimerEvent: {}
+[8.411885] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Atlas.h:26\x1b[m\x1b[K,\n'}
+[8.412116] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[8.412194] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[8.412255] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[8.412316] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[8.412393] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[8.412452] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[8.412508] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.412577] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:83:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kkp1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.412638] (orbslam3) StderrLine: {'line': b'   83 |         bool matchAndtriangulate(\x1b[01;35m\x1b[Kconst cv::KeyPoint& kp1\x1b[m\x1b[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,\n'}
+[8.412696] (orbslam3) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.412754] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:83:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kkp2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.412815] (orbslam3) StderrLine: {'line': b'   83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, \x1b[01;35m\x1b[Kconst cv::KeyPoint& kp2\x1b[m\x1b[K, GeometricCamera* pOther,\n'}
+[8.412872] (orbslam3) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[8.412928] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:83:101:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KpOther\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.412993] (orbslam3) StderrLine: {'line': b'   83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, const cv::KeyPoint& kp2, \x1b[01;35m\x1b[KGeometricCamera* pOther\x1b[m\x1b[K,\n'}
+[8.413051] (orbslam3) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[8.413111] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:84:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KTcw1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.413174] (orbslam3) StderrLine: {'line': b'   84 |                                  \x1b[01;35m\x1b[KSophus::SE3f& Tcw1\x1b[m\x1b[K, Sophus::SE3f& Tcw2,\n'}
+[8.413235] (orbslam3) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.413767] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:84:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KTcw2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.413896] (orbslam3) StderrLine: {'line': b'   84 |                                  Sophus::SE3f& Tcw1, \x1b[01;35m\x1b[KSophus::SE3f& Tcw2\x1b[m\x1b[K,\n'}
+[8.413968] (orbslam3) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[8.414045] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:85:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KsigmaLevel1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.414110] (orbslam3) StderrLine: {'line': b'   85 |                                  \x1b[01;35m\x1b[Kconst float sigmaLevel1\x1b[m\x1b[K, const float sigmaLevel2,\n'}
+[8.414172] (orbslam3) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.414228] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:85:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KsigmaLevel2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.414291] (orbslam3) StderrLine: {'line': b'   85 |                                  const float sigmaLevel1, \x1b[01;35m\x1b[Kconst float sigmaLevel2\x1b[m\x1b[K,\n'}
+[8.414348] (orbslam3) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.414410] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:86:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kx3Dtriangulated\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.414472] (orbslam3) StderrLine: {'line': b'   86 |                                  \x1b[01;35m\x1b[KEigen::Vector3f& x3Dtriangulated\x1b[m\x1b[K) { return false;}\n'}
+[8.414533] (orbslam3) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.414804] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[8.414955] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[8.415026] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[8.415086] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[8.415146] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[8.415204] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[8.415276] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[8.415335] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.415396] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.415472] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[8.415528] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.415587] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.415652] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[8.415709] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.415762] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[8.415818] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[8.415871] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[8.415928] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[8.415981] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[8.416036] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[8.416099] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[8.416152] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.416208] (orbslam3) StderrLine: {'line': b'   47 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[8.416263] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.416317] (orbslam3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Atlas.h:27\x1b[m\x1b[K,\n'}
+[8.416370] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:25\x1b[m\x1b[K,\n'}
+[8.416424] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[8.416477] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[8.416530] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[8.416582] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.hpp:13\x1b[m\x1b[K,\n'}
+[8.416635] (orbslam3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gina/mei/slam/src/orbslam3_ros2/src/stereo/stereo-slam-node.cpp:1\x1b[m\x1b[K:\n'}
+[8.416689] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.416748] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.416810] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[8.416864] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.416917] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.416973] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[8.417027] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.417079] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:53:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.417134] (orbslam3) StderrLine: {'line': b'   53 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),\n'}
+[8.417188] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.417241] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.417294] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KORB_SLAM3::KannalaBrandt8::precision\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.417355] (orbslam3) StderrLine: {'line': b'  102 |         const float \x1b[01;35m\x1b[Kprecision\x1b[m\x1b[K;\n'}
+[8.417410] (orbslam3) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.417462] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.417523] (orbslam3) StderrLine: {'line': b'   88 |         std::vector<int> \x1b[01;35m\x1b[KmvLappingArea\x1b[m\x1b[K;\n'}
+[8.417576] (orbslam3) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.417628] (orbslam3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:59:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.417687] (orbslam3) StderrLine: {'line': b'   59 |         \x1b[01;35m\x1b[KKannalaBrandt8\x1b[m\x1b[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {\n'}
+[8.417742] (orbslam3) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.427126] (-) TimerEvent: {}
+[8.527537] (-) TimerEvent: {}
+[8.627975] (-) TimerEvent: {}
+[8.728436] (-) TimerEvent: {}
+[8.828889] (-) TimerEvent: {}
+[8.929345] (-) TimerEvent: {}
+[9.029791] (-) TimerEvent: {}
+[9.130253] (-) TimerEvent: {}
+[9.230732] (-) TimerEvent: {}
+[9.331206] (-) TimerEvent: {}
+[9.431657] (-) TimerEvent: {}
+[9.532051] (-) TimerEvent: {}
+[9.632380] (-) TimerEvent: {}
+[9.732769] (-) TimerEvent: {}
+[9.833106] (-) TimerEvent: {}
+[9.933438] (-) TimerEvent: {}
+[10.033768] (-) TimerEvent: {}
+[10.134096] (-) TimerEvent: {}
+[10.234417] (-) TimerEvent: {}
+[10.334748] (-) TimerEvent: {}
+[10.435063] (-) TimerEvent: {}
+[10.535373] (-) TimerEvent: {}
+[10.635682] (-) TimerEvent: {}
+[10.736061] (-) TimerEvent: {}
+[10.836494] (-) TimerEvent: {}
+[10.936836] (-) TimerEvent: {}
+[11.037260] (-) TimerEvent: {}
+[11.137603] (-) TimerEvent: {}
+[11.238025] (-) TimerEvent: {}
+[11.338462] (-) TimerEvent: {}
+[11.438872] (-) TimerEvent: {}
+[11.539385] (-) TimerEvent: {}
+[11.639831] (-) TimerEvent: {}
+[11.740188] (-) TimerEvent: {}
+[11.840524] (-) TimerEvent: {}
+[11.940909] (-) TimerEvent: {}
+[12.041405] (-) TimerEvent: {}
+[12.141960] (-) TimerEvent: {}
+[12.242528] (-) TimerEvent: {}
+[12.343078] (-) TimerEvent: {}
+[12.443584] (-) TimerEvent: {}
+[12.543900] (-) TimerEvent: {}
+[12.644294] (-) TimerEvent: {}
+[12.744725] (-) TimerEvent: {}
+[12.845068] (-) TimerEvent: {}
+[12.945395] (-) TimerEvent: {}
+[13.045778] (-) TimerEvent: {}
+[13.146123] (-) TimerEvent: {}
+[13.246451] (-) TimerEvent: {}
+[13.346849] (-) TimerEvent: {}
+[13.447216] (-) TimerEvent: {}
+[13.547628] (-) TimerEvent: {}
+[13.647974] (-) TimerEvent: {}
+[13.748293] (-) TimerEvent: {}
+[13.848602] (-) TimerEvent: {}
+[13.949012] (-) TimerEvent: {}
+[14.049353] (-) TimerEvent: {}
+[14.149772] (-) TimerEvent: {}
+[14.250194] (-) TimerEvent: {}
+[14.350611] (-) TimerEvent: {}
+[14.451020] (-) TimerEvent: {}
+[14.551514] (-) TimerEvent: {}
+[14.651874] (-) TimerEvent: {}
+[14.752323] (-) TimerEvent: {}
+[14.852752] (-) TimerEvent: {}
+[14.953171] (-) TimerEvent: {}
+[15.053582] (-) TimerEvent: {}
+[15.154014] (-) TimerEvent: {}
+[15.254493] (-) TimerEvent: {}
+[15.354938] (-) TimerEvent: {}
+[15.455393] (-) TimerEvent: {}
+[15.555823] (-) TimerEvent: {}
+[15.656215] (-) TimerEvent: {}
+[15.756593] (-) TimerEvent: {}
+[15.857012] (-) TimerEvent: {}
+[15.957440] (-) TimerEvent: {}
+[16.057870] (-) TimerEvent: {}
+[16.158278] (-) TimerEvent: {}
+[16.258691] (-) TimerEvent: {}
+[16.359156] (-) TimerEvent: {}
+[16.459532] (-) TimerEvent: {}
+[16.559854] (-) TimerEvent: {}
+[16.660162] (-) TimerEvent: {}
+[16.760548] (-) TimerEvent: {}
+[16.860985] (-) TimerEvent: {}
+[16.961417] (-) TimerEvent: {}
+[17.061854] (-) TimerEvent: {}
+[17.162281] (-) TimerEvent: {}
+[17.262732] (-) TimerEvent: {}
+[17.363174] (-) TimerEvent: {}
+[17.463539] (-) TimerEvent: {}
+[17.563959] (-) TimerEvent: {}
+[17.664417] (-) TimerEvent: {}
+[17.764818] (-) TimerEvent: {}
+[17.865167] (-) TimerEvent: {}
+[17.965511] (-) TimerEvent: {}
+[18.065906] (-) TimerEvent: {}
+[18.166220] (-) TimerEvent: {}
+[18.266633] (-) TimerEvent: {}
+[18.367045] (-) TimerEvent: {}
+[18.467483] (-) TimerEvent: {}
+[18.567894] (-) TimerEvent: {}
+[18.668320] (-) TimerEvent: {}
+[18.768715] (-) TimerEvent: {}
+[18.869108] (-) TimerEvent: {}
+[18.969491] (-) TimerEvent: {}
+[19.069904] (-) TimerEvent: {}
+[19.170295] (-) TimerEvent: {}
+[19.270609] (-) TimerEvent: {}
+[19.370933] (-) TimerEvent: {}
+[19.471268] (-) TimerEvent: {}
+[19.571582] (-) TimerEvent: {}
+[19.671902] (-) TimerEvent: {}
+[19.772266] (-) TimerEvent: {}
+[19.872672] (-) TimerEvent: {}
+[19.973079] (-) TimerEvent: {}
+[20.073473] (-) TimerEvent: {}
+[20.173848] (-) TimerEvent: {}
+[20.274242] (-) TimerEvent: {}
+[20.374575] (-) TimerEvent: {}
+[20.474915] (-) TimerEvent: {}
+[20.575257] (-) TimerEvent: {}
+[20.675573] (-) TimerEvent: {}
+[20.775885] (-) TimerEvent: {}
+[20.876270] (-) TimerEvent: {}
+[20.976640] (-) TimerEvent: {}
+[21.076951] (-) TimerEvent: {}
+[21.177238] (-) TimerEvent: {}
+[21.277555] (-) TimerEvent: {}
+[21.377879] (-) TimerEvent: {}
+[21.478246] (-) TimerEvent: {}
+[21.578641] (-) TimerEvent: {}
+[21.678930] (-) TimerEvent: {}
+[21.779244] (-) TimerEvent: {}
+[21.879543] (-) TimerEvent: {}
+[21.979957] (-) TimerEvent: {}
+[22.080383] (-) TimerEvent: {}
+[22.180774] (-) TimerEvent: {}
+[22.281174] (-) TimerEvent: {}
+[22.381611] (-) TimerEvent: {}
+[22.481952] (-) TimerEvent: {}
+[22.582227] (-) TimerEvent: {}
+[22.682443] (-) TimerEvent: {}
+[22.782780] (-) TimerEvent: {}
+[22.883114] (-) TimerEvent: {}
+[22.983485] (-) TimerEvent: {}
+[23.083806] (-) TimerEvent: {}
+[23.136405] (orbslam3) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable stereo\x1b[0m\n'}
+[23.183879] (-) TimerEvent: {}
+[23.284097] (-) TimerEvent: {}
+[23.384361] (-) TimerEvent: {}
+[23.484650] (-) TimerEvent: {}
+[23.585063] (-) TimerEvent: {}
+[23.685407] (-) TimerEvent: {}
+[23.785783] (-) TimerEvent: {}
+[23.886200] (-) TimerEvent: {}
+[23.986555] (-) TimerEvent: {}
+[24.086897] (-) TimerEvent: {}
+[24.187255] (-) TimerEvent: {}
+[24.287593] (-) TimerEvent: {}
+[24.387931] (-) TimerEvent: {}
+[24.488268] (-) TimerEvent: {}
+[24.588598] (-) TimerEvent: {}
+[24.666990] (orbslam3) StdoutLine: {'line': b'[100%] Built target stereo\n'}
+[24.679058] (orbslam3) CommandEnded: {'returncode': 0}
+[24.688683] (-) TimerEvent: {}
+[24.721698] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'install'}
+[24.731157] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gina/mei/slam/build/orbslam3'], 'cwd': '/home/gina/mei/slam/build/orbslam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gina'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gina'), ('CYCLONEDDS_URI', 'file:///opt/autoware/cyclonedds/cyclonedds.xml'), ('OLDPWD', '/home/gina/mei/ORB_SLAM3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('SYSTEMD_EXEC_PID', '1778'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/gina/mei/slam/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gina'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gina'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/gina/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/gina/.local/bin:/home/gina/.local/bin'), ('SESSION_MANAGER', 'local/gina-office:@/tmp/.ICE-unix/1750,unix/gina-office:/tmp/.ICE-unix/1750'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0dcb0e7b_5bab_48e9_a884_ee0528f4d8d0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '19'), ('AMENT_PREFIX_PATH', '/home/gina/mei/slam/install/orbslam3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gina/mei/slam/build/orbslam3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gina/mei/slam/install/orbslam3:/opt/ros/humble')]), 'shell': False}
+[24.762518] (orbslam3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.766894] (orbslam3) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[24.767469] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/lib/orbslam3/mono\n'}
+[24.767713] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/lib/orbslam3/rgbd\n'}
+[24.767873] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/lib/orbslam3/stereo\n'}
+[24.768029] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/lib/orbslam3/stereo-inertial\n'}
+[24.768213] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3\n'}
+[24.768656] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3\n'}
+[24.768993] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh\n'}
+[24.770206] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv\n'}
+[24.770422] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/environment/path.sh\n'}
+[24.771803] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/environment/path.dsv\n'}
+[24.772095] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/local_setup.bash\n'}
+[24.773488] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/local_setup.sh\n'}
+[24.773806] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/local_setup.zsh\n'}
+[24.774955] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/local_setup.dsv\n'}
+[24.775167] (orbslam3) StdoutLine: {'line': b'-- Symlinking: /home/gina/mei/slam/install/orbslam3/share/orbslam3/package.dsv\n'}
+[24.784945] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/ament_index/resource_index/packages/orbslam3\n'}
+[24.785235] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake\n'}
+[24.786910] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake\n'}
+[24.787046] (orbslam3) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/package.xml\n'}
+[24.788811] (-) TimerEvent: {}
+[24.789267] (orbslam3) CommandEnded: {'returncode': 0}
+[24.888916] (-) TimerEvent: {}
+[24.986208] (orbslam3) JobEnded: {'identifier': 'orbslam3', 'rc': 0}
+[24.987830] (-) EventReactorShutdown: {}

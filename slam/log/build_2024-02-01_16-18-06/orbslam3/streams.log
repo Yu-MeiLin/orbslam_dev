@@ -1,0 +1,30 @@
+[0.085s] Invoking command in '/home/gina/mei/slam/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gina/mei/slam/build/orbslam3 -- -j24 -l24
+[0.173s] [35m[1mConsolidate compiler generated dependencies of target stereo-inertial[0m
+[0.190s] [ 25%] Built target mono
+[0.190s] [ 75%] Built target stereo
+[0.190s] [ 75%] Built target rgbd
+[0.214s] [100%] Built target stereo-inertial
+[0.227s] Invoked command in '/home/gina/mei/slam/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gina/mei/slam/build/orbslam3 -- -j24 -l24
+[0.282s] Invoking command in '/home/gina/mei/slam/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gina/mei/slam/build/orbslam3
+[0.290s] -- Install configuration: ""
+[0.291s] -- Execute custom install script
+[0.292s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/lib/orbslam3/mono
+[0.292s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/lib/orbslam3/rgbd
+[0.292s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/lib/orbslam3/stereo
+[0.292s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/lib/orbslam3/stereo-inertial
+[0.292s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/ament_index/resource_index/package_run_dependencies/orbslam3
+[0.293s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/ament_index/resource_index/parent_prefix_path/orbslam3
+[0.293s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/environment/ament_prefix_path.sh
+[0.293s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/environment/ament_prefix_path.dsv
+[0.294s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/environment/path.sh
+[0.294s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/environment/path.dsv
+[0.294s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/local_setup.bash
+[0.294s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/local_setup.sh
+[0.294s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/local_setup.zsh
+[0.294s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/local_setup.dsv
+[0.294s] -- Symlinking: /home/gina/mei/slam/install/orbslam3/share/orbslam3/package.dsv
+[0.304s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/ament_index/resource_index/packages/orbslam3
+[0.305s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/cmake/orbslam3Config.cmake
+[0.305s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/cmake/orbslam3Config-version.cmake
+[0.305s] -- Up-to-date symlink: /home/gina/mei/slam/install/orbslam3/share/orbslam3/package.xml
+[0.307s] Invoked command in '/home/gina/mei/slam/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gina/mei/slam/build/orbslam3

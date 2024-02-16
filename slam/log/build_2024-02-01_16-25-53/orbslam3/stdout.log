@@ -1,0 +1,6 @@
+[  6%] [32mBuilding CXX object CMakeFiles/rgbd-inertial.dir/src/rgbd-inertial/rgbd-inertial.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rgbd-inertial.dir/src/rgbd-inertial/rgbd-inertial-node.cpp.o[0m
+[ 33%] Built target rgbd
+[ 53%] Built target mono
+[ 73%] Built target stereo
+[ 93%] Built target stereo-inertial

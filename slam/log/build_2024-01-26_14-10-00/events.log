@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000584] (orbslam3) JobQueued: {'identifier': 'orbslam3', 'dependencies': OrderedDict()}
+[0.000815] (orbslam3) JobStarted: {'identifier': 'orbslam3'}
+[0.062930] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'cmake'}
+[0.063530] (orbslam3) JobProgress: {'identifier': 'orbslam3', 'progress': 'build'}
+[0.064462] (orbslam3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gina/mei/slam/build/orbslam3', '--', '-j24', '-l24'], 'cwd': '/home/gina/mei/slam/build/orbslam3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gina'), ('LC_TIME', 'lzh_TW'), ('ROS_PACKAGE_PATH', ':/home/gina/mei/ORB_SLAM3/Examples/ROS'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gina'), ('CYCLONEDDS_URI', 'file:///opt/autoware/cyclonedds/cyclonedds.xml'), ('OLDPWD', '/home/gina/mei'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'lzh_TW'), ('SYSTEMD_EXEC_PID', '1151341'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'gina'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gina'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/gina/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/gina/.local/bin:/home/gina/.local/bin:/home/gina/.local/bin:/home/gina/.local/bin'), ('SESSION_MANAGER', 'local/gina-office:@/tmp/.ICE-unix/1687,unix/gina-office:/tmp/.ICE-unix/1687'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'lzh_TW'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ef8f6eab_1c48_4e97_87e9_e7668c5219fe'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'lzh_TW'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2496'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '19'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'lzh_TW'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gina/mei/slam/build/orbslam3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097132] (orbslam3) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099485] (-) TimerEvent: {}
+[0.199862] (-) TimerEvent: {}
+[0.270175] (orbslam3) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.278639] (orbslam3) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299942] (-) TimerEvent: {}
+[0.318415] (orbslam3) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.321486] (orbslam3) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.329221] (orbslam3) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.343396] (orbslam3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.363583] (orbslam3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400029] (-) TimerEvent: {}
+[0.439191] (orbslam3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.440883] (orbslam3) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.478611] (orbslam3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.500117] (-) TimerEvent: {}
+[0.600326] (-) TimerEvent: {}
+[0.685704] (orbslam3) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.700413] (-) TimerEvent: {}
+[0.800628] (-) TimerEvent: {}
+[0.850880] (orbslam3) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.869054] (orbslam3) StdoutLine: {'line': b'-- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.900668] (-) TimerEvent: {}
+[0.997447] (orbslam3) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.000735] (-) TimerEvent: {}
+[1.047800] (orbslam3) StdoutLine: {'line': b'-- Generating done\n'}
+[1.049476] (orbslam3) StdoutLine: {'line': b'-- Build files have been written to: /home/gina/mei/slam/build/orbslam3\n'}
+[1.082770] (orbslam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mono\x1b[0m\n'}
+[1.083429] (orbslam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereo\x1b[0m\n'}
+[1.083728] (orbslam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rgbd\x1b[0m\n'}
+[1.083910] (orbslam3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stereo-inertial\x1b[0m\n'}
+[1.100834] (-) TimerEvent: {}
+[1.124439] (orbslam3) StdoutLine: {'line': b'[  8%] \x1b[32m\x1b[1mLinking CXX executable stereo\x1b[0m\n'}
+[1.124757] (orbslam3) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking CXX executable mono\x1b[0m\n'}
+[1.124997] (orbslam3) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable rgbd\x1b[0m\n'}
+[1.125237] (orbslam3) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable stereo-inertial\x1b[0m\n'}
+[1.200976] (-) TimerEvent: {}
+[1.301436] (-) TimerEvent: {}
+[1.401884] (-) TimerEvent: {}
+[1.502451] (-) TimerEvent: {}
+[1.602896] (-) TimerEvent: {}
+[1.703398] (-) TimerEvent: {}
+[1.803883] (-) TimerEvent: {}
+[1.904368] (-) TimerEvent: {}
+[2.004856] (-) TimerEvent: {}
+[2.105370] (-) TimerEvent: {}
+[2.185090] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce()'\n"}
+[2.194536] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::RandomInt(int, int)'\n"}
+[2.197587] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce(int)'\n"}
+[2.199386] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DBoW2::FORB::L'\n"}
+[2.205460] (-) TimerEvent: {}
+[2.233947] (orbslam3) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[2.236075] (orbslam3) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mono.dir/build.make:268: mono] Error 1\n'}
+[2.236473] (orbslam3) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/mono.dir/all] Error 2\n'}
+[2.236712] (orbslam3) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.270199] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce()'\n"}
+[2.278492] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce()'\n"}
+[2.280600] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::RandomInt(int, int)'\n"}
+[2.283927] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce(int)'\n"}
+[2.285829] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DBoW2::FORB::L'\n"}
+[2.289009] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::RandomInt(int, int)'\n"}
+[2.292167] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce(int)'\n"}
+[2.294032] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DBoW2::FORB::L'\n"}
+[2.305551] (-) TimerEvent: {}
+[2.324157] (orbslam3) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[2.326224] (orbslam3) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rgbd.dir/build.make:269: rgbd] Error 1\n'}
+[2.326473] (orbslam3) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/rgbd.dir/all] Error 2\n'}
+[2.331890] (orbslam3) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[2.333812] (orbslam3) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/stereo.dir/build.make:269: stereo] Error 1\n'}
+[2.334127] (orbslam3) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/stereo.dir/all] Error 2\n'}
+[2.398097] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce()'\n"}
+[2.405654] (-) TimerEvent: {}
+[2.408684] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::RandomInt(int, int)'\n"}
+[2.411941] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DUtils::Random::SeedRandOnce(int)'\n"}
+[2.413927] (orbslam3) StderrLine: {'line': b"/usr/bin/ld: /home/gina/mei/ORB_SLAM3/lib/libORB_SLAM3.so: undefined reference to `DBoW2::FORB::L'\n"}
+[2.455337] (orbslam3) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[2.457308] (orbslam3) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:268: stereo-inertial] Error 1\n'}
+[2.457808] (orbslam3) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/stereo-inertial.dir/all] Error 2\n'}
+[2.458043] (orbslam3) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.462232] (orbslam3) CommandEnded: {'returncode': 2}
+[2.506391] (-) TimerEvent: {}
+[2.567939] (orbslam3) JobEnded: {'identifier': 'orbslam3', 'rc': 2}
+[2.578439] (-) EventReactorShutdown: {}

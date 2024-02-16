@@ -1,0 +1,14 @@
+/home/gina/mei/slam/build/orbslam3/CMakeFiles/uninstall.dir
+/home/gina/mei/slam/build/orbslam3/CMakeFiles/orbslam3_uninstall.dir
+/home/gina/mei/slam/build/orbslam3/CMakeFiles/mono.dir
+/home/gina/mei/slam/build/orbslam3/CMakeFiles/rgbd.dir
+/home/gina/mei/slam/build/orbslam3/CMakeFiles/rgbd-inertial.dir
+/home/gina/mei/slam/build/orbslam3/CMakeFiles/stereo.dir
+/home/gina/mei/slam/build/orbslam3/CMakeFiles/stereo-inertial.dir
+/home/gina/mei/slam/build/orbslam3/CMakeFiles/test.dir
+/home/gina/mei/slam/build/orbslam3/CMakeFiles/edit_cache.dir
+/home/gina/mei/slam/build/orbslam3/CMakeFiles/rebuild_cache.dir
+/home/gina/mei/slam/build/orbslam3/CMakeFiles/list_install_components.dir
+/home/gina/mei/slam/build/orbslam3/CMakeFiles/install.dir
+/home/gina/mei/slam/build/orbslam3/CMakeFiles/install/local.dir
+/home/gina/mei/slam/build/orbslam3/CMakeFiles/install/strip.dir

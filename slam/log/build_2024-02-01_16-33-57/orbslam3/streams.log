@@ -1,0 +1,1285 @@
+[0.084s] Invoking command in '/home/gina/mei/slam/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gina/mei/slam/build/orbslam3 -- -j24 -l24
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target rgbd-inertial[0m
+[0.157s] [ 20%] Built target mono
+[0.158s] [ 40%] Built target stereo
+[0.158s] [ 60%] Built target rgbd
+[0.158s] [ 80%] Built target stereo-inertial
+[0.180s] [ 86%] [32mBuilding CXX object CMakeFiles/rgbd-inertial.dir/src/rgbd-inertial/rgbd-inertial.cpp.o[0m
+[0.181s] [ 93%] [32mBuilding CXX object CMakeFiles/rgbd-inertial.dir/src/rgbd-inertial/rgbd-inertial-node.cpp.o[0m
+[5.506s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:30[m[K,
+[5.506s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.506s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.506s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.506s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.507s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.507s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.507s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.507s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[5.507s] [01m[K/home/gina/mei/ORB_SLAM3/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[5.507s] [01m[K/home/gina/mei/ORB_SLAM3/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.507s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[5.507s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.605s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[5.605s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[5.605s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[5.605s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.605s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.605s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.605s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.605s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.605s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.605s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.605s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[5.605s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[5.605s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.605s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[5.605s]       |                                                                          [01;35m[K^~~~~~~~~~[m[K
+[5.606s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[5.606s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[5.606s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[5.606s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[5.606s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[5.606s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[5.606s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.606s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.606s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.606s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.606s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.606s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.606s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.606s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[5.606s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.606s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[5.606s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[5.623s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:30[m[K,
+[5.623s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.623s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.623s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.623s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.623s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.623s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.623s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.624s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[5.624s] [01m[K/home/gina/mei/ORB_SLAM3/include/ImuTypes.h:[m[K In member function ‘[01m[Kvoid ORB_SLAM3::IMU::Preintegrated::printMeasurements() const[m[K’:
+[5.624s] [01m[K/home/gina/mei/ORB_SLAM3/include/ImuTypes.h:204:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM3::IMU::Preintegrated::integrable>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.624s]   204 |         for(int i=0; [01;35m[Ki<mvMeasurements.size()[m[K; i++){
+[5.624s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.630s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[5.630s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[5.630s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[5.630s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.630s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.630s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.630s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.630s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.630s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.630s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.631s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[5.631s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.631s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[5.631s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[5.631s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[5.631s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[5.631s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[5.631s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[5.631s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[5.631s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[5.631s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.631s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.631s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.631s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.631s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.631s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.631s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.632s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[5.632s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.632s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[5.632s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[5.632s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[5.632s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[5.632s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[5.632s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.632s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.632s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.632s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.632s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.632s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.632s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.632s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[5.632s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.632s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[5.632s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[5.633s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[5.633s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[5.633s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[5.633s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[5.633s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[5.633s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[5.633s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.633s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.633s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.633s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.633s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.633s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.633s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.633s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[5.633s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.633s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[5.633s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[5.686s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41[m[K,
+[5.686s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[5.686s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[5.686s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.686s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.687s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.687s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.687s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.687s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.687s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.687s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[5.688s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/se3quat.h:43:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.688s]    43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW[01;35m[K;[m[K
+[5.688s]       |                                      [01;35m[K^[m[K
+[5.688s]       |                                      [31m[K-[m[K
+[5.726s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[5.726s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[5.726s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[5.726s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.726s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.726s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.726s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.726s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.726s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.726s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.726s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[5.726s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:[m[K At global scope:
+[5.726s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.726s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[5.726s]       |                                                                          [01;35m[K^~~~~~~~~~[m[K
+[5.727s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[5.727s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[5.727s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[5.727s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[5.727s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[5.727s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[5.727s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.727s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.727s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.727s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.727s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.727s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.727s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.727s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[5.727s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.727s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[5.728s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[5.752s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[5.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[5.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[5.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.752s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.752s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[5.752s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.752s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[5.752s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[5.753s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[5.753s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[5.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[5.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[5.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[5.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[5.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.753s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.753s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[5.753s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.754s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[5.754s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[5.754s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[5.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[5.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[5.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.754s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.754s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[5.754s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.754s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[5.754s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[5.754s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[5.754s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[5.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[5.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[5.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[5.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[5.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.755s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.755s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[5.755s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.755s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[5.755s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[5.808s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:41[m[K,
+[5.808s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[5.808s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[5.809s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.809s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.809s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.809s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.809s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.809s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[5.810s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[5.810s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[5.810s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/se3quat.h:43:38:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.810s]    43 |       EIGEN_MAKE_ALIGNED_OPERATOR_NEW[01;35m[K;[m[K
+[5.810s]       |                                      [01;35m[K^[m[K
+[5.810s]       |                                      [31m[K-[m[K
+[6.105s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[6.105s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.105s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.105s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.106s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.106s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.106s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.106s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.106s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.106s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.106s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.107s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[6.107s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[6.107s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.107s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[6.107s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.107s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.108s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.108s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.108s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.108s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.108s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.108s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.108s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.109s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.109s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.109s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.109s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.109s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.109s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.110s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.110s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.110s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.138s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[6.138s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.139s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.139s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.139s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.139s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.139s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.139s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.140s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.140s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.140s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.140s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[6.140s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[6.140s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.140s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[6.140s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.140s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.141s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.141s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.141s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.141s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.141s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.141s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.141s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.141s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.141s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.141s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.141s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.141s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.141s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.141s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.141s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.141s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.173s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.173s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.173s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.173s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.173s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.173s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.173s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.173s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.173s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.173s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.173s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.173s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[6.174s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[6.174s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.174s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[6.174s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.174s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.174s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.174s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.174s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.174s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.174s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.174s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.174s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.174s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.174s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.174s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.174s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.174s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.174s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.175s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.175s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.175s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.175s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.175s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.175s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.175s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.175s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.175s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.175s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.175s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.175s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.175s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.175s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.175s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.175s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[6.175s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.175s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.175s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.176s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.176s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.176s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.176s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.176s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.176s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.176s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.176s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.176s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.176s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.176s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.176s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.176s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.176s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.176s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.244s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[6.244s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.244s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.244s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.244s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.244s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.244s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.244s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.244s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.244s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.245s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.245s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[6.245s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[6.245s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.245s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[6.245s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.245s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.245s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.245s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.245s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.245s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.245s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.245s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.245s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.245s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.245s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.245s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.246s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.246s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.246s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.246s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.246s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.246s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.254s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.254s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.255s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.255s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.255s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.255s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.255s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.255s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.255s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.255s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.255s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.255s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[6.255s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[6.255s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.255s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[6.255s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.255s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.255s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.255s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.255s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.256s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.256s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.256s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.256s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.256s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.256s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.256s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.256s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.256s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.256s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.256s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.256s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.256s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.272s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.272s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.272s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.272s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.272s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.272s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.272s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.273s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.273s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.273s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.273s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.273s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.273s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[6.273s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.273s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.273s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.273s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.273s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.273s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.273s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.273s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.273s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.273s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.273s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.273s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.274s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.274s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.274s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.274s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.274s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.274s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.276s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[6.276s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.276s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.276s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.276s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.276s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.276s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.277s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.277s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.277s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.277s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.277s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[6.277s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[6.277s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.277s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[6.277s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.277s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.277s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.277s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.277s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.277s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.277s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.277s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.277s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.278s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.278s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.278s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.278s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.278s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.278s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.278s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.278s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.278s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.309s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.309s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.310s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.310s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.310s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.310s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.310s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.310s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.310s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.310s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.310s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.310s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[6.310s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[6.310s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.310s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[6.310s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.310s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.310s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.311s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.311s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.311s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.311s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.311s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.312s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.312s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.312s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.312s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.312s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.312s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.312s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.312s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.312s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[6.312s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.312s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.312s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.312s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.312s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.312s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.312s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.312s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.312s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.312s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.313s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.313s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.313s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.313s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.313s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.313s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.313s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.313s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.340s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.341s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.341s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.341s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.341s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.341s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.341s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.341s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.341s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.341s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.341s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.341s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[6.341s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[6.341s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.341s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[6.341s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.342s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.342s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.342s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.342s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.342s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.342s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.342s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.342s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.342s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.342s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.342s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.342s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.342s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.342s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.342s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.342s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.342s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.342s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.342s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.343s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.343s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.343s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.343s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.343s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.343s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.343s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.343s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.343s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.343s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.343s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[6.343s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.343s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.343s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.343s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.343s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.343s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.343s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.343s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.344s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.344s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.344s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.344s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.344s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.344s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.344s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.344s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.344s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.344s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.390s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.390s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.390s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.390s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.390s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.390s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.390s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.390s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.390s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.391s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.391s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.391s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[6.391s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[6.391s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.391s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[6.391s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.391s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.391s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.391s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.391s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.391s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.391s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.391s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.391s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.391s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.391s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.391s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.391s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.392s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.392s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.392s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.392s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.392s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.406s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.406s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.406s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.406s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.406s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.406s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.406s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.407s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.407s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.407s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.407s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.407s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.407s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[6.407s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.407s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.407s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.407s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.407s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.407s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.407s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.407s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.407s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.407s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.407s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.407s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.408s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.408s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.408s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.408s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.408s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.408s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.474s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.475s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.475s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.475s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.475s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.475s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.475s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.475s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.475s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.475s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.475s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.475s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[6.475s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[6.475s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.475s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[6.475s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.475s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.476s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.476s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.476s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.476s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.476s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.476s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.476s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.476s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.476s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.476s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.476s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.476s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.476s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.476s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.476s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.476s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.476s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.477s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.477s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.477s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.477s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.477s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.477s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.477s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.477s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.477s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.477s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.477s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.477s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[6.477s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.477s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.477s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.477s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.477s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.478s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.478s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.478s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.478s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.478s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.478s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.478s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.478s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.478s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.478s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.478s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.478s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.478s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.582s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[6.583s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.583s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.583s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.583s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.583s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.583s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.583s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.583s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.583s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.583s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.583s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[6.583s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[6.583s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.583s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[6.583s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.583s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.583s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.583s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.584s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.584s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.584s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.584s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.584s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.584s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.584s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.584s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.584s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.584s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.584s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.584s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.584s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.584s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.619s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.619s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.619s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.619s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.619s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.620s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.620s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.620s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.620s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.620s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.620s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.620s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[6.620s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[6.620s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.620s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[6.620s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.620s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.620s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.620s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.620s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.620s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.620s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.620s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.620s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.621s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.621s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.621s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.621s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.621s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.621s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.621s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.621s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.621s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.621s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.621s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.621s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.621s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.621s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.621s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.621s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.621s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.621s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.622s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.622s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.622s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.622s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[6.622s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.622s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.622s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.622s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.622s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.622s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.622s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.622s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.622s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.622s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.622s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.622s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.623s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.623s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.623s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.623s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.623s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.623s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.670s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.670s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.670s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.670s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.670s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.670s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.670s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.670s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.670s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.670s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.670s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.670s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[6.670s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[6.670s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.670s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[6.671s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.671s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.671s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.671s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.671s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.671s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.671s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.671s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.671s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.671s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.671s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.671s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.671s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.671s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.671s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.671s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.671s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.671s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.687s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.687s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.687s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.687s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.687s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.687s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.687s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.687s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.687s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.687s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.688s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.688s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.688s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[6.688s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.688s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.688s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.688s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.688s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.688s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.688s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.688s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.688s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.688s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.688s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.688s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.688s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.688s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.688s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[6.689s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.689s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.689s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.715s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[6.715s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.715s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.716s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.716s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.716s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.716s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.716s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.716s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.716s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.716s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.716s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[6.716s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[6.716s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.716s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[6.716s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.716s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.716s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.716s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.716s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.717s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.717s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.717s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.717s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.717s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.717s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.717s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.717s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.717s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.717s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.717s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.717s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.717s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.751s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.752s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.752s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.752s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.753s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[6.753s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[6.753s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.753s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[6.753s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.753s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.753s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.753s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.753s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.754s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.754s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.754s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.754s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.754s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.754s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.754s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.754s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.754s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.754s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[6.754s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.754s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.755s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.755s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.755s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.755s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.755s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.755s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.755s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.802s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.802s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.802s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.803s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.803s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.803s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.803s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.803s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.803s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.803s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.803s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.803s] /home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[6.803s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[6.803s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.803s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[6.803s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.803s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.803s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.803s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.803s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.803s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.803s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.804s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.804s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.804s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.804s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.804s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.804s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.804s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.804s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.804s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.804s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.804s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[6.819s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[6.820s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Converter.h:26[m[K,
+[6.820s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:33[m[K,
+[6.820s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.820s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.820s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.820s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.820s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.820s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.820s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.820s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.820s] [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[6.820s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[6.820s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[6.820s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[6.820s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[6.820s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[6.820s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[6.820s]                  from [01m[K/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[6.820s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Frame.h:28[m[K,
+[6.821s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[6.821s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[6.821s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[6.821s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[6.821s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[6.821s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[6.821s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[6.821s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[6.821s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.821s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[6.821s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[7.825s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/include/Atlas.h:26[m[K,
+[7.825s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[7.825s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[7.825s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[7.825s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[7.825s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[7.825s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[7.825s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:[m[K In member function ‘[01m[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)[m[K’:
+[7.825s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:83:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.826s]    83 |         bool matchAndtriangulate([01;35m[Kconst cv::KeyPoint& kp1[m[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,
+[7.826s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[7.826s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:83:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.826s]    83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, [01;35m[Kconst cv::KeyPoint& kp2[m[K, GeometricCamera* pOther,
+[7.826s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[7.826s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:83:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpOther[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.826s]    83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, const cv::KeyPoint& kp2, [01;35m[KGeometricCamera* pOther[m[K,
+[7.826s]       |                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.827s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:84:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.827s]    84 |                                  [01;35m[KSophus::SE3f& Tcw1[m[K, Sophus::SE3f& Tcw2,
+[7.827s]       |                                  [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[7.827s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:84:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.827s]    84 |                                  Sophus::SE3f& Tcw1, [01;35m[KSophus::SE3f& Tcw2[m[K,
+[7.827s]       |                                                      [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[7.828s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:85:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.828s]    85 |                                  [01;35m[Kconst float sigmaLevel1[m[K, const float sigmaLevel2,
+[7.828s]       |                                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[7.828s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:85:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.828s]    85 |                                  const float sigmaLevel1, [01;35m[Kconst float sigmaLevel2[m[K,
+[7.828s]       |                                                           [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[7.828s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:86:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx3Dtriangulated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.828s]    86 |                                  [01;35m[KEigen::Vector3f& x3Dtriangulated[m[K) { return false;}
+[7.828s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[7.828s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/include/Atlas.h:27[m[K,
+[7.828s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[7.828s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[7.828s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[7.828s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[7.828s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[7.828s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[7.828s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[7.828s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.829s]   102 |         const float [01;35m[Kprecision[m[K;
+[7.829s]       |                     [01;35m[K^~~~~~~~~[m[K
+[7.829s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.829s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[7.829s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[7.829s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/include/Atlas.h:27[m[K,
+[7.829s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[7.829s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[7.829s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[7.829s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[7.829s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[7.829s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[7.829s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.829s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[7.829s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[7.829s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/include/Atlas.h:27[m[K,
+[7.829s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[7.829s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[7.829s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[7.830s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[7.830s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[7.830s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[7.830s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[7.830s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.830s]   102 |         const float [01;35m[Kprecision[m[K;
+[7.830s]       |                     [01;35m[K^~~~~~~~~[m[K
+[7.830s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.830s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[7.830s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[7.830s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.830s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[7.830s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[7.830s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[7.830s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.830s]   102 |         const float [01;35m[Kprecision[m[K;
+[7.830s]       |                     [01;35m[K^~~~~~~~~[m[K
+[7.830s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.830s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[7.830s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[7.831s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.831s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[7.831s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[7.976s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/include/Atlas.h:26[m[K,
+[7.976s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[7.976s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[7.976s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[7.976s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[7.976s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[7.976s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[7.976s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:[m[K In member function ‘[01m[Kvirtual bool ORB_SLAM3::Pinhole::matchAndtriangulate(const cv::KeyPoint&, const cv::KeyPoint&, ORB_SLAM3::GeometricCamera*, Sophus::SE3f&, Sophus::SE3f&, float, float, Eigen::Vector3f&)[m[K’:
+[7.976s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:83:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.976s]    83 |         bool matchAndtriangulate([01;35m[Kconst cv::KeyPoint& kp1[m[K, const cv::KeyPoint& kp2, GeometricCamera* pOther,
+[7.976s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[7.976s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:83:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkp2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.977s]    83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, [01;35m[Kconst cv::KeyPoint& kp2[m[K, GeometricCamera* pOther,
+[7.977s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[7.977s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:83:101:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KpOther[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.977s]    83 |         bool matchAndtriangulate(const cv::KeyPoint& kp1, const cv::KeyPoint& kp2, [01;35m[KGeometricCamera* pOther[m[K,
+[7.977s]       |                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[7.977s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:84:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.977s]    84 |                                  [01;35m[KSophus::SE3f& Tcw1[m[K, Sophus::SE3f& Tcw2,
+[7.977s]       |                                  [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[7.977s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:84:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KTcw2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.977s]    84 |                                  Sophus::SE3f& Tcw1, [01;35m[KSophus::SE3f& Tcw2[m[K,
+[7.977s]       |                                                      [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+[7.977s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:85:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.977s]    85 |                                  [01;35m[Kconst float sigmaLevel1[m[K, const float sigmaLevel2,
+[7.977s]       |                                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[7.978s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:85:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KsigmaLevel2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.978s]    85 |                                  const float sigmaLevel1, [01;35m[Kconst float sigmaLevel2[m[K,
+[7.978s]       |                                                           [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[7.978s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/Pinhole.h:86:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx3Dtriangulated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.978s]    86 |                                  [01;35m[KEigen::Vector3f& x3Dtriangulated[m[K) { return false;}
+[7.978s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[7.978s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/include/Atlas.h:27[m[K,
+[7.978s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[7.978s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[7.978s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[7.978s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[7.978s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[7.978s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[7.978s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>)[m[K’:
+[7.978s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.979s]   102 |         const float [01;35m[Kprecision[m[K;
+[7.979s]       |                     [01;35m[K^~~~~~~~~[m[K
+[7.979s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.979s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[7.979s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[7.979s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/include/Atlas.h:27[m[K,
+[7.979s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[7.979s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[7.979s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[7.979s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[7.979s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[7.979s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[7.979s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:47:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.979s]    47 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters) : GeometricCamera(_vParameters), precision(1e-6), mvLappingArea(2,0) ,tvr(nullptr) {
+[7.979s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[7.979s] In file included from [01m[K/home/gina/mei/ORB_SLAM3/include/Atlas.h:27[m[K,
+[7.979s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/FrameDrawer.h:25[m[K,
+[7.979s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Viewer.h:23[m[K,
+[7.979s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/Tracking.h:26[m[K,
+[7.980s]                  from [01m[K/home/gina/mei/ORB_SLAM3/include/System.h:31[m[K,
+[7.980s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:10[m[K,
+[7.980s]                  from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[7.980s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(std::vector<float>, float)[m[K’:
+[7.980s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.980s]   102 |         const float [01;35m[Kprecision[m[K;
+[7.980s]       |                     [01;35m[K^~~~~~~~~[m[K
+[7.980s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.980s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[7.980s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[7.980s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:53:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.980s]    53 |         [01;35m[KKannalaBrandt8[m[K(const std::vector<float> _vParameters, const float _precision) : GeometricCamera(_vParameters),
+[7.980s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[7.980s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:[m[K In constructor ‘[01m[KORB_SLAM3::KannalaBrandt8::KannalaBrandt8(ORB_SLAM3::KannalaBrandt8*)[m[K’:
+[7.980s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:102:21:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM3::KannalaBrandt8::precision[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.980s]   102 |         const float [01;35m[Kprecision[m[K;
+[7.980s]       |                     [01;35m[K^~~~~~~~~[m[K
+[7.980s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:88:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<int> ORB_SLAM3::KannalaBrandt8::mvLappingArea[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.980s]    88 |         std::vector<int> [01;35m[KmvLappingArea[m[K;
+[7.981s]       |                          [01;35m[K^~~~~~~~~~~~~[m[K
+[7.981s] [01m[K/home/gina/mei/ORB_SLAM3/include/CameraModels/KannalaBrandt8.h:59:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.981s]    59 |         [01;35m[KKannalaBrandt8[m[K(KannalaBrandt8* pKannala) : GeometricCamera(pKannala->mvParameters), precision(pKannala->precision), mvLappingArea(2,0) ,tvr(nullptr) {
+[7.981s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[8.123s] In file included from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial.cpp:7[m[K:
+[8.123s] [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:[m[K At global scope:
+[8.123s] [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:55:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[8.124s]    55 | }
+[8.124s]       |  [01;31m[K^[m[K
+[8.124s]       |  [32m[K;[m[K
+[8.274s] In file included from [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:1[m[K:
+[8.274s] [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:[m[K At global scope:
+[8.274s] [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.hpp:55:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[8.274s]    55 | }
+[8.274s]       |  [01;31m[K^[m[K
+[8.275s]       |  [32m[K;[m[K
+[8.290s] [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:[m[K In constructor ‘[01m[KRgbdInertialNode::RgbdInertialNode(ORB_SLAM3::System*, const string&, const string&, const string&)[m[K’:
+[8.290s] [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:7:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KstrSettingsFile[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.290s]     7 | RgbdInertialNode::RgbdInertialNode(ORB_SLAM3::System *SLAM, [01;35m[Kconst string &strSettingsFile[m[K, const string &strDoRectify, const string &strDoEqual) :
+[8.291s]       |                                                             [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[8.337s] [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:[m[K In member function ‘[01m[Kvoid RgbdInertialNode::SyncWithImu()[m[K’:
+[8.337s] [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:187:98:[m[K [01;31m[Kerror: [m[K‘[01m[KtImLeft[m[K’ was not declared in this scope
+[8.337s]   187 |                 while (!imuBuf_.empty() && Utility::StampToSec(imuBuf_.front()->header.stamp) <= [01;31m[KtImLeft[m[K)
+[8.337s]       |                                                                                                  [01;31m[K^~~~~~~[m[K
+[8.362s] [01m[K/home/gina/mei/slam/src/orbslam3_ros2/src/rgbd-inertial/rgbd-inertial-node.cpp:210:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimestamp[m[K’ was not declared in this scope
+[8.362s]   210 |             SLAM_->TrackRGBD(imRgb, imDepth, [01;31m[Ktimestamp[m[K, vImuMeas);
+[8.362s]       |                                              [01;31m[K^~~~~~~~~[m[K
+[13.629s] gmake[2]: *** [CMakeFiles/rgbd-inertial.dir/build.make:76: CMakeFiles/rgbd-inertial.dir/src/rgbd-inertial/rgbd-inertial.cpp.o] Error 1
+[13.629s] gmake[2]: *** Waiting for unfinished jobs....
+[17.543s] gmake[2]: *** [CMakeFiles/rgbd-inertial.dir/build.make:90: CMakeFiles/rgbd-inertial.dir/src/rgbd-inertial/rgbd-inertial-node.cpp.o] Error 1
+[17.544s] gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/rgbd-inertial.dir/all] Error 2
+[17.544s] gmake: *** [Makefile:146: all] Error 2
+[17.547s] Invoked command in '/home/gina/mei/slam/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gina/mei/slam/build/orbslam3 -- -j24 -l24
