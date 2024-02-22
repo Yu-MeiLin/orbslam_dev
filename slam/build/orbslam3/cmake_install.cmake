@@ -1,8 +1,8 @@
-# Install script for directory: /home/gina/mei/slam/src/orbslam3_ros2
+# Install script for directory: /home/gina/mei/orbslam_dev/slam/src/orbslam3_ros2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gina/mei/slam/install/orbslam3")
+  set(CMAKE_INSTALL_PREFIX "/home/gina/mei/orbslam_dev/slam/install/orbslam3")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,162 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/gina/mei/slam/build/orbslam3/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/mono" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/mono")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/mono"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/orbslam3" TYPE EXECUTABLE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/mono")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/mono" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/mono")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/mono"
+         OLD_RPATH "/home/gina/mei/orbslam_dev/slam/src/orbslam3_ros2/include:/opt/ros/humble/lib:/home/gina/mei/Pangolin/build:/home/gina/mei/orbslam_dev/ORB_SLAM3/lib:/home/gina/mei/orbslam_dev/ORB_SLAM3/Thirdparty/DBoW2/lib:/home/gina/mei/orbslam_dev/ORB_SLAM3/Thirdparty/g2o/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/mono")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/rgbd" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/rgbd")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/rgbd"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/orbslam3" TYPE EXECUTABLE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/rgbd")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/rgbd" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/rgbd")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/rgbd"
+         OLD_RPATH "/home/gina/mei/orbslam_dev/slam/src/orbslam3_ros2/include:/opt/ros/humble/lib:/home/gina/mei/orbslam_dev/ORB_SLAM3/lib:/home/gina/mei/orbslam_dev/ORB_SLAM3/Thirdparty/DBoW2/lib:/home/gina/mei/orbslam_dev/ORB_SLAM3/Thirdparty/g2o/lib:/home/gina/mei/Pangolin/build:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/rgbd")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/rgbd-inertial" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/rgbd-inertial")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/rgbd-inertial"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/orbslam3" TYPE EXECUTABLE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/rgbd-inertial")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/rgbd-inertial" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/rgbd-inertial")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/rgbd-inertial"
+         OLD_RPATH "/home/gina/mei/orbslam_dev/slam/src/orbslam3_ros2/include:/opt/ros/humble/lib:/home/gina/mei/orbslam_dev/ORB_SLAM3/lib:/home/gina/mei/orbslam_dev/ORB_SLAM3/Thirdparty/DBoW2/lib:/home/gina/mei/orbslam_dev/ORB_SLAM3/Thirdparty/g2o/lib:/home/gina/mei/Pangolin/build:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/rgbd-inertial")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/stereo" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/stereo")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/stereo"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/orbslam3" TYPE EXECUTABLE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/stereo")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/stereo" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/stereo")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/stereo"
+         OLD_RPATH "/home/gina/mei/orbslam_dev/slam/src/orbslam3_ros2/include:/opt/ros/humble/lib:/home/gina/mei/orbslam_dev/ORB_SLAM3/lib:/home/gina/mei/orbslam_dev/ORB_SLAM3/Thirdparty/DBoW2/lib:/home/gina/mei/orbslam_dev/ORB_SLAM3/Thirdparty/g2o/lib:/home/gina/mei/Pangolin/build:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/stereo")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/stereo-inertial" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/stereo-inertial")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/stereo-inertial"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/orbslam3" TYPE EXECUTABLE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/stereo-inertial")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/stereo-inertial" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/stereo-inertial")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/stereo-inertial"
+         OLD_RPATH "/home/gina/mei/orbslam_dev/slam/src/orbslam3_ros2/include:/opt/ros/humble/lib:/home/gina/mei/orbslam_dev/ORB_SLAM3/lib:/home/gina/mei/orbslam_dev/ORB_SLAM3/Thirdparty/DBoW2/lib:/home/gina/mei/orbslam_dev/ORB_SLAM3/Thirdparty/g2o/lib:/home/gina/mei/Pangolin/build:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/orbslam3/stereo-inertial")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/orbslam3")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/orbslam3")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbslam3/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbslam3/environment" TYPE FILE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbslam3/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbslam3/environment" TYPE FILE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbslam3" TYPE FILE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbslam3" TYPE FILE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbslam3" TYPE FILE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbslam3" TYPE FILE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbslam3" TYPE FILE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/gina/mei/orbslam_dev/slam/build/orbslam3/ament_cmake_index/share/ament_index/resource_index/packages/orbslam3")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbslam3/cmake" TYPE FILE FILES
+    "/home/gina/mei/orbslam_dev/slam/build/orbslam3/ament_cmake_core/orbslam3Config.cmake"
+    "/home/gina/mei/orbslam_dev/slam/build/orbslam3/ament_cmake_core/orbslam3Config-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/orbslam3" TYPE FILE FILES "/home/gina/mei/orbslam_dev/slam/src/orbslam3_ros2/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +209,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gina/mei/slam/build/orbslam3/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gina/mei/orbslam_dev/slam/build/orbslam3/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

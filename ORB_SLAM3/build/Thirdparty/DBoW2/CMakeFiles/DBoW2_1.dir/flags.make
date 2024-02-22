@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DCOMPILEDWITHC11 -DDBoW2_1_EXPORTS
 
-CXX_INCLUDES = -I/home/gina/mei/ORB_SLAM3 -I/home/gina/mei/ORB_SLAM3/include -I/home/gina/mei/ORB_SLAM3/include/CameraModels -I/home/gina/mei/ORB_SLAM3/Thirdparty/Sophus -I/usr/include/eigen3 -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/home/gina/mei/orbslam_dev/ORB_SLAM3 -I/home/gina/mei/orbslam_dev/ORB_SLAM3/include -I/home/gina/mei/orbslam_dev/ORB_SLAM3/include/CameraModels -I/home/gina/mei/orbslam_dev/ORB_SLAM3/Thirdparty/Sophus -I/usr/include/eigen3 -isystem /usr/include/opencv4
 
 CXX_FLAGS =  -Wall   -O3 -std=c++11 -std=c++14 -Wall  -O3 -march=native -O3 -DNDEBUG -march=native -fPIC -std=gnu++14
 

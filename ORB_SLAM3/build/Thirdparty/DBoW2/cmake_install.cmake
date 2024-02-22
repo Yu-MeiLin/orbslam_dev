@@ -1,4 +1,4 @@
-# Install script for directory: /home/gina/mei/ORB_SLAM3/Thirdparty/DBoW2
+# Install script for directory: /home/gina/mei/orbslam_dev/ORB_SLAM3/Thirdparty/DBoW2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

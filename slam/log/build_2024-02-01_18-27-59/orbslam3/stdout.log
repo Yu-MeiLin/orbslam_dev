@@ -1,7 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target rgbd-inertial[0m
-[ 20%] Built target mono
-[ 73%] Built target stereo
-[ 73%] Built target rgbd
-[ 80%] Built target stereo-inertial
-[ 86%] [32mBuilding CXX object CMakeFiles/rgbd-inertial.dir/src/rgbd-inertial/rgbd-inertial.cpp.o[0m
-[ 93%] [32mBuilding CXX object CMakeFiles/rgbd-inertial.dir/src/rgbd-inertial/rgbd-inertial-node.cpp.o[0m
