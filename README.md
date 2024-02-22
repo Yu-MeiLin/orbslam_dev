@@ -1,5 +1,5 @@
 # ORB_SLAM3_ROS2
-This repository clones both https://github.com/UZ-SLAMLab/ORB_SLAM3.git and https://github.com/zang09/ORB_SLAM3_ROS2.git to run ORB_SLAM3 on ROS2. Based on the latter repository, this one adds up rgbd-inertial mode.
+This repository clones both https://github.com/UZ-SLAMLab/ORB_SLAM3.git and https://github.com/zang09/ORB_SLAM3_ROS2.git to run ORB_SLAM3 on ROS2. Besides, based on the latter repository, this one adds up rgbd-inertial mode.
 
 ---
 
@@ -13,7 +13,7 @@ This repository clones both https://github.com/UZ-SLAMLab/ORB_SLAM3.git and http
   - OpenCV 4.2.0
   - [Pangolin](https://github.com/stevenlovegrove/Pangolin) 
   - [Eigen3](http://eigen.tuxfamily.org) Required at least 3.1.0.
-  
+
 - Build ORB_SLAM3
   - Go to folder ORB_SLAM3.
 ```
