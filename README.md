@@ -1,5 +1,5 @@
 # ORB_SLAM3_ROS2
-This repository clones both https://github.com/UZ-SLAMLab/ORB_SLAM3.git and https://github.com/zang09/ORB_SLAM3_ROS2.git to run ORB_SLAM3 on ROS2. Based on the latter repository, this one adds rgbd-inertial mode.
+This repository clones both https://github.com/UZ-SLAMLab/ORB_SLAM3.git and https://github.com/zang09/ORB_SLAM3_ROS2.git to run ORB_SLAM3 on ROS2. Based on the latter repository, this one adds up rgbd-inertial mode.
 
 ---
 
@@ -7,34 +7,35 @@ This repository clones both https://github.com/UZ-SLAMLab/ORB_SLAM3.git and http
 [![orbslam3_ros2](https://user-images.githubusercontent.com/31432135/220839530-786b8a28-d5af-4aa5-b4ed-6234c2f4ca33.PNG)](https://www.youtube.com/watch?v=zXeXL8q72lM)
 
 ## Prerequisites
-- I have tested on below version.
+- Environment.
   - Ubuntu 22.04
   - ROS2 humble
   - OpenCV 4.2.0
-
+  - [Pangolin](https://github.com/stevenlovegrove/Pangolin) 
+  - [Eigen3](http://eigen.tuxfamily.org) Required at least 3.1.0.
+  
 - Build ORB_SLAM3
-  - Go to this [repo](https://github.com/zang09/ORB-SLAM3-STEREO-FIXED) and follow build instruction.
+  - Go to folder ORB_SLAM3.
+```
+$ git clone https://github.com/Yu-MeiLin/orbslam_dev.git
+$ cd ORB_SLAM3
+$ chmod +x build.sh
+$ ./build.sh
+```  
 
 - Install related ROS2 package
 ```
 $ sudo apt install ros-$ROS_DISTRO-vision-opencv && sudo apt install ros-$ROS_DISTRO-message-filters
 ```
 
-## How to build
-1. Clone repository to your ROS workspace
-```
-$ mkdir -p colcon_ws/src
-$ cd ~/colcon_ws/src
-$ git clone https://github.com/zang09/ORB_SLAM3_ROS2.git orbslam3_ros2
-```
+## How to build ORB_SLAM3 ROS2 Version
+1. Change this [line](https://github.com/Yu-MeiLin/orbslam_dev/blob/4e87b03643b046f67a74c8fc29889ac92566058d/slam/src/orbslam3_ros2/CMakeLists.txt#L7) to your own `python site-packages` path
 
-2. Change this [line](https://github.com/zang09/ORB_SLAM3_ROS2/blob/ee82428ed627922058b93fea1d647725c813584e/CMakeLists.txt#L5) to your own `python site-packages` path
-
-3. Change this [line](https://github.com/zang09/ORB_SLAM3_ROS2/blob/ee82428ed627922058b93fea1d647725c813584e/CMakeModules/FindORB_SLAM3.cmake#L8) to your own `ORB_SLAM3` path
+2. Change this [line](https://github.com/Yu-MeiLin/orbslam_dev/blob/4e87b03643b046f67a74c8fc29889ac92566058d/slam/src/orbslam3_ros2/CMakeModules/FindORB_SLAM3.cmake#L8) to your own `ORB_SLAM3` path
 
 Now, you are ready to build!
 ```
-$ cd ~/colcon_ws
+$ cd slam
 $ colcon build --symlink-install --packages-select orbslam3
 ```
 
@@ -52,7 +53,7 @@ Refer this [#issue](https://github.com/zang09/ORB_SLAM3_ROS2/issues/2#issuecomme
 ## How to use
 1. Source the workspace  
 ```
-$ source ~/colcon_ws/install/local_setup.bash
+$ source slam/install/local_setup.bash
 ```
 
 2. Run orbslam mode, which you want.  
